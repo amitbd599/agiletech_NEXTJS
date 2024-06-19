@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaArrowRight,
@@ -7,7 +8,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const FooterSeven = () => {
   return (
@@ -70,22 +70,22 @@ const FooterSeven = () => {
                   </p>
                   <ul className="social-media">
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaYoutube />
                       </Link>
                     </li>
@@ -98,32 +98,32 @@ const FooterSeven = () => {
                 <h4 className="widget-title">Our Service</h4>
                 <ul>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Ui Design
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Web design
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Digital marketing{' '}
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Video Editing
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Pc Repairs
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Web Development
                     </Link>
                   </li>
@@ -135,32 +135,32 @@ const FooterSeven = () => {
                 <h4 className="widget-title">Pay links</h4>
                 <ul>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Credit industrys
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Reasearch sector
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Finance Sector{' '}
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Credit industrys
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Reasearch sector
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Finance Sector
                     </Link>
                   </li>
@@ -182,7 +182,7 @@ const FooterSeven = () => {
                           <span>january 11, 2024</span>
                         </div>
                         <h6 className="title mb-0">
-                          <Link to="/blog-details">
+                          <Link href="/blog-details">
                             Social Media For Promote Business.
                           </Link>
                         </h6>
@@ -200,7 +200,7 @@ const FooterSeven = () => {
                           <span>january 11, 2024</span>
                         </div>
                         <h6 className="title mb-0">
-                          <Link to="/blog-details">
+                          <Link href="/blog-details">
                             Marketing For Base market watch
                           </Link>
                         </h6>

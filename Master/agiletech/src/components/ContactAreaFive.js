@@ -1,5 +1,5 @@
+import Link from 'next/link';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const ContactAreaFive = () => {
   return (
@@ -64,7 +64,7 @@ const ContactAreaFive = () => {
                       <div className="col-12">
                         <Link
                           className="btn btn-base mt-0 w-100 border-radius-5"
-                          to="#"
+                          href="#"
                         >
                           Submit now
                         </Link>

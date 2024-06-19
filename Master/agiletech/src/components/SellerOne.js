@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaChevronRight } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const SellerOne = () => {
   return (
@@ -14,7 +14,7 @@ const SellerOne = () => {
                 <h2 className="title">Best Sellers</h2>
               </div>
               <div className="col-md-6 text-lg-end d-lg-block d-none">
-                <Link className="btn btn-base-pink" to="/about">
+                <Link className="btn btn-base-pink" href="/about">
                   All Seller <FaChevronRight className="mt-4" />
                 </Link>
               </div>

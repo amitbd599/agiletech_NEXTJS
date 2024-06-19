@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 
-import { Link } from 'react-router-dom';
 
 const BannerSix = () => {
   return (
@@ -44,7 +44,7 @@ const BannerSix = () => {
                   data-aos="fade-right"
                   data-aos-delay="400"
                   data-aos-duration="1500"
-                  to="/about"
+                  href="/about"
                 >
                   Explore now
                 </Link>

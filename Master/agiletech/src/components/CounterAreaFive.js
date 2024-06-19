@@ -1,6 +1,4 @@
 import React from "react";
-import TrackVisibility from "react-on-screen";
-import CountUp from "react-countup";
 const CounterAreaFive = () => {
   return (
     <>

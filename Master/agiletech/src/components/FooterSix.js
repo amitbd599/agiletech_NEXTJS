@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaChevronRight,
@@ -6,7 +7,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const FooterSix = () => {
   return (
@@ -27,19 +27,19 @@ const FooterSix = () => {
                 </h4>
                 <ul>
                   <li>
-                    <Link to="/service">Ui Design</Link>
+                    <Link href="/service">Ui Design</Link>
                   </li>
                   <li>
-                    <Link to="/service">Web design</Link>
+                    <Link href="/service">Web design</Link>
                   </li>
                   <li>
-                    <Link to="/service">Digital marketing </Link>
+                    <Link href="/service">Digital marketing </Link>
                   </li>
                   <li>
-                    <Link to="/service">Video Editing</Link>
+                    <Link href="/service">Video Editing</Link>
                   </li>
                   <li>
-                    <Link to="/service">Pc Repairs</Link>
+                    <Link href="/service">Pc Repairs</Link>
                   </li>
                 </ul>
               </div>
@@ -56,7 +56,7 @@ const FooterSix = () => {
                 </h4>
                 <ul>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <img
                         className="me-1"
                         src="assets/img/home-8/60.png"
@@ -66,7 +66,7 @@ const FooterSix = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <img
                         className="me-1"
                         src="assets/img/home-8/60.png"
@@ -76,7 +76,7 @@ const FooterSix = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <img
                         className="me-1"
                         src="assets/img/home-8/60.png"
@@ -86,7 +86,7 @@ const FooterSix = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <img
                         className="me-1"
                         src="assets/img/home-8/60.png"
@@ -96,7 +96,7 @@ const FooterSix = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <img
                         className="me-1"
                         src="assets/img/home-8/60.png"
@@ -177,29 +177,29 @@ const FooterSix = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-4 align-self-center">
-                <Link to="index-1">
+                <Link href="index-1">
                   <img src="assets/img/home-8/logo.png" alt="img" />
                 </Link>
               </div>
               <div className="col-lg-4 align-self-center">
                 <ul className="social-media text-lg-center mt-lg-0 mt-3 mb-lg-0 mb-3">
                   <li>
-                    <Link className="border-radius-50 bg-white" to="#">
+                    <Link className="border-radius-50 bg-white" href="#">
                       <FaFacebookF />
                     </Link>
                   </li>
                   <li>
-                    <Link className="border-radius-50 bg-white" to="#">
+                    <Link className="border-radius-50 bg-white" href="#">
                       <FaTwitter />
                     </Link>
                   </li>
                   <li>
-                    <Link className="border-radius-50 bg-white" to="#">
+                    <Link className="border-radius-50 bg-white" href="#">
                       <FaInstagram />
                     </Link>
                   </li>
                   <li>
-                    <Link className="border-radius-50 bg-white" to="#">
+                    <Link className="border-radius-50 bg-white" href="#">
                       <FaYoutube />
                     </Link>
                   </li>

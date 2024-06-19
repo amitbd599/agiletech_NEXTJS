@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const BannerSeven = () => {
   return (
@@ -34,7 +34,7 @@ const BannerSeven = () => {
                   className="btn btn-base-pink wow animated fadeInLeft"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.6s"
-                  to="/about"
+                  href="/about"
                 >
                   Discover More <FaPlus />
                 </Link>

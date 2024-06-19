@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const ServiceAreaEight = () => {
   return (
@@ -26,7 +26,7 @@ const ServiceAreaEight = () => {
                 </div>
                 <div className="details">
                   <h5 className="text-white">
-                    <Link to="/service-details">General Builder</Link>
+                    <Link href="/service-details">General Builder</Link>
                   </h5>
                   <p className="text-white">
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
@@ -34,7 +34,7 @@ const ServiceAreaEight = () => {
                   </p>
                   <Link
                     className="read-more-text text-white"
-                    to="/service-details"
+                    href="/service-details"
                   >
                     Read More <FaArrowRight />
                   </Link>
@@ -48,7 +48,7 @@ const ServiceAreaEight = () => {
                 </div>
                 <div className="details">
                   <h5 className="text-white">
-                    <Link to="/service-details">Electrical Services</Link>
+                    <Link href="/service-details">Electrical Services</Link>
                   </h5>
                   <p className="text-white">
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
@@ -56,7 +56,7 @@ const ServiceAreaEight = () => {
                   </p>
                   <Link
                     className="read-more-text text-white"
-                    to="/service-details"
+                    href="/service-details"
                   >
                     Read More <FaArrowRight />
                   </Link>
@@ -70,7 +70,7 @@ const ServiceAreaEight = () => {
                 </div>
                 <div className="details">
                   <h5 className="text-white">
-                    <Link to="/service-details">Plumber Services</Link>
+                    <Link href="/service-details">Plumber Services</Link>
                   </h5>
                   <p className="text-white">
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
@@ -78,7 +78,7 @@ const ServiceAreaEight = () => {
                   </p>
                   <Link
                     className="read-more-text text-white"
-                    to="/service-details"
+                    href="/service-details"
                   >
                     Read More <FaArrowRight />
                   </Link>

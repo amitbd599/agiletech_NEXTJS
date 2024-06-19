@@ -1,5 +1,5 @@
+import Link from 'next/link';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const ServiceAreaFive = () => {
   return (
@@ -27,7 +27,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link to="/service-details">AI Consult</Link>
+                    <Link href="/service-details">AI Consult</Link>
                   </h5>
                   <p className="mb-0">
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -43,7 +43,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link to="/service-details">Data Mind</Link>
+                    <Link href="/service-details">Data Mind</Link>
                   </h5>
                   <p className="mb-0">
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -59,7 +59,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link to="/service-details">IntelliSense</Link>
+                    <Link href="/service-details">IntelliSense</Link>
                   </h5>
                   <p className="mb-0">
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -82,7 +82,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link to="/service-details">Neural Solutions</Link>
+                    <Link href="/service-details">Neural Solutions</Link>
                   </h5>
                   <p className="mb-0">
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -98,7 +98,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link to="/service-details">Wise Logic</Link>
+                    <Link href="/service-details">Wise Logic</Link>
                   </h5>
                   <p className="mb-0">
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -114,7 +114,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link to="/service-details">Smart Vision</Link>
+                    <Link href="/service-details">Smart Vision</Link>
                   </h5>
                   <p className="mb-0">
                     Aliquam eros justo, posuere loborti inh thi viverra coin

@@ -1,6 +1,7 @@
+'use client'
+import Link from 'next/link';
 import React from 'react';
 import { FaAngleLeft, FaAngleRight, FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 
 const CaseStudyAreaThree = () => {
@@ -76,7 +77,7 @@ const CaseStudyAreaThree = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       Vegas It Park
                     </Link>
                     <p>
@@ -93,7 +94,7 @@ const CaseStudyAreaThree = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       Vegas It Park
                     </Link>
                     <p>
@@ -110,7 +111,7 @@ const CaseStudyAreaThree = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       Vegas It Park
                     </Link>
                     <p>
@@ -127,7 +128,7 @@ const CaseStudyAreaThree = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       Vegas It Park
                     </Link>
                     <p>

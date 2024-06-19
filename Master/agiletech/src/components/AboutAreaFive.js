@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const AboutAreaFive = () => {
   return (
@@ -71,7 +71,7 @@ const AboutAreaFive = () => {
                 </div>
                 <Link
                   className="btn btn-base-color border-radius-5"
-                  to="/about"
+                  href="/about"
                 >
                   Discover More <FaArrowRight />
                 </Link>

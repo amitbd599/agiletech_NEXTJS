@@ -1,7 +1,8 @@
+'use client'
+import Link from 'next/link';
 import React, { useState } from 'react';
 import Marquee from 'react-fast-marquee';
 import ModalVideo from 'react-modal-video';
-import { Link } from 'react-router-dom';
 const BannerTen = () => {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -31,7 +32,7 @@ const BannerTen = () => {
                   className="btn btn-border-base wow animated fadeInLeft"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.6s"
-                  to="/about"
+                  href="/about"
                 >
                   Contact Us
                 </Link>

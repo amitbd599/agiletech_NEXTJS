@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   FaAngleLeft,
@@ -11,7 +12,6 @@ import {
   FaTwitter,
   FaRegUser,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const BlogGroup = () => {
   return (
@@ -36,7 +36,7 @@ const BlogGroup = () => {
                     </li>
                   </ul>
                   <h2 className='title'>
-                    <Link to='/blog-details'>
+                    <Link href='/blog-details'>
                       A Beginner's Guide to Running a Successful Agricultural
                     </Link>
                   </h2>
@@ -50,7 +50,7 @@ const BlogGroup = () => {
                   </p>
                   <Link
                     className='btn btn-border-base mt-3'
-                    to='/service-details'
+                    href='/service-details'
                   >
                     Touch More <FaPlus />
                   </Link>
@@ -71,7 +71,7 @@ const BlogGroup = () => {
                     </li>
                   </ul>
                   <h2 className='title'>
-                    <Link to='/blog-details'>
+                    <Link href='/blog-details'>
                       Successful Agricultural Guide to Running Beginner
                     </Link>
                   </h2>
@@ -85,7 +85,7 @@ const BlogGroup = () => {
                   </p>
                   <Link
                     className='btn btn-border-base mt-3'
-                    to='/service-details'
+                    href='/service-details'
                   >
                     Touch More <FaPlus />
                   </Link>
@@ -106,7 +106,7 @@ const BlogGroup = () => {
                     </li>
                   </ul>
                   <h2 className='title'>
-                    <Link to='/blog-details'>
+                    <Link href='/blog-details'>
                       A Beginner's Guide to Running a Successful Agricultural
                     </Link>
                   </h2>
@@ -120,29 +120,29 @@ const BlogGroup = () => {
                   </p>
                   <Link
                     className='btn btn-border-base mt-3'
-                    to='/service-details'
+                    href='/service-details'
                   >
                     Touch More <FaPlus />
                   </Link>
                 </div>
               </div>
               <div className='pagination'>
-                <Link className='prev page-numbers' to="#">
+                <Link className='prev page-numbers' href="#">
                   <FaAngleLeft />
                 </Link>
-                <Link className='page-numbers' to="#">
+                <Link className='page-numbers' href="#">
                   1
                 </Link>
                 <span className='page-numbers current'>2</span>
-                <Link className='page-numbers' to="#">
+                <Link className='page-numbers' href="#">
                   3
                 </Link>
-                <Link className='page-numbers' to="#">
+                <Link className='page-numbers' href="#">
                   4
                 </Link>
                 <Link
                   className='next page-numbers'
-                  to="#"
+                  href="#"
                 >
                   <FaAngleRight />
                 </Link>
@@ -159,17 +159,17 @@ const BlogGroup = () => {
                     <h6>(480) 555-0103</h6>
                     <ul className='social-media'>
                       <li>
-                        <Link to='#'>
+                        <Link href='#'>
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to='#'>
+                        <Link href='#'>
                           <FaTwitter />
                         </Link>
                       </li>
                       <li>
-                        <Link to='#'>
+                        <Link href='#'>
                           <FaInstagram />
                         </Link>
                       </li>
@@ -196,7 +196,7 @@ const BlogGroup = () => {
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
-                            <Link to='/blog-details'>
+                            <Link href='/blog-details'>
                               Empowering future with solar.
                             </Link>
                           </h6>
@@ -214,7 +214,7 @@ const BlogGroup = () => {
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
-                            <Link to='blog-details'>
+                            <Link href='blog-details'>
                               Marketing For Base market watch
                             </Link>
                           </h6>
@@ -232,7 +232,7 @@ const BlogGroup = () => {
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
-                            <Link to='/blog-details'>
+                            <Link href='/blog-details'>
                               Condtum Integer urna at faucibus
                             </Link>
                           </h6>
@@ -249,27 +249,27 @@ const BlogGroup = () => {
                   <h4 className='widget-title'>Catagory</h4>
                   <ul className='catagory-items'>
                     <li>
-                      <Link to='/blog'>
+                      <Link href='/blog'>
                         Business <span>3</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to='/blog'>
+                      <Link href='/blog'>
                         Finance <span>7</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to='/blog'>
+                      <Link href='/blog'>
                         Web Design <span>2</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to='/blog'>
+                      <Link href='/blog'>
                         Counsiling <span>3</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to='/blog'>
+                      <Link href='/blog'>
                         IT Service <span>5</span>
                       </Link>
                     </li>
@@ -278,14 +278,14 @@ const BlogGroup = () => {
                 <div className='widget widget_tag_cloud mb-0'>
                   <h4 className='widget-title'>Tags</h4>
                   <div className='tagcloud'>
-                    <Link to='#'>Information</Link>
-                    <Link to='#'>Learn</Link>
-                    <Link to='#'>ICT</Link>
-                    <Link to='#'>Business</Link>
-                    <Link to='#'>Portfolio</Link>
-                    <Link to='#'>Project</Link>
-                    <Link to='#'>Personal</Link>
-                    <Link to='#'>Server</Link>
+                    <Link href='#'>Information</Link>
+                    <Link href='#'>Learn</Link>
+                    <Link href='#'>ICT</Link>
+                    <Link href='#'>Business</Link>
+                    <Link href='#'>Portfolio</Link>
+                    <Link href='#'>Project</Link>
+                    <Link href='#'>Personal</Link>
+                    <Link href='#'>Server</Link>
                   </div>
                 </div>
               </div>

@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const CollectiblesOne = () => {
   return (
@@ -14,7 +14,7 @@ const CollectiblesOne = () => {
                 Lorem ipsum dolor sit amet consectetur. Gravida vulputate vel
                 nec nisi sit nunc. Hendrerit sagittis donec
               </p>
-              <Link className="btn btn-base-pink" to="/about">
+              <Link className="btn btn-base-pink" href="/about">
                 Discover More <FaPlus />
               </Link>
             </div>
@@ -34,7 +34,7 @@ const CollectiblesOne = () => {
               </div>
               <div className="details p-4">
                 <h5 className="mb-4">NFT Market Tracker</h5>
-                <Link className="btn  btn-base-pink" to="/about">
+                <Link className="btn  btn-base-pink" href="/about">
                   Discover More <FaPlus />
                 </Link>
               </div>
@@ -50,7 +50,7 @@ const CollectiblesOne = () => {
               </div>
               <div className="details p-4">
                 <h5 className="mb-4">Digital Authentication Services</h5>
-                <Link className="btn  btn-base-pink" to="/about">
+                <Link className="btn  btn-base-pink" href="/about">
                   Discover More <FaPlus />
                 </Link>
               </div>
@@ -66,7 +66,7 @@ const CollectiblesOne = () => {
               </div>
               <div className="details p-4">
                 <h5 className="mb-4">Auction House</h5>
-                <Link className="btn  btn-base-pink" to="/about">
+                <Link className="btn  btn-base-pink" href="/about">
                   Discover More <FaPlus />
                 </Link>
               </div>

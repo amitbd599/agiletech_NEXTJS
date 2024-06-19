@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const TeamAreaFive = () => {
   return (
@@ -19,17 +19,17 @@ const TeamAreaFive = () => {
                   <img src="assets/img/home-7/15.png" alt="img" />
                   <ul className="team-social-inner">
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
@@ -37,7 +37,7 @@ const TeamAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/team-details">Kathryn Murphy</Link>
+                    <Link href="/team-details">Kathryn Murphy</Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>
@@ -49,17 +49,17 @@ const TeamAreaFive = () => {
                   <img src="assets/img/home-7/16.png" alt="img" />
                   <ul className="team-social-inner">
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
@@ -67,7 +67,7 @@ const TeamAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/team-details">Kathryn Murphy</Link>
+                    <Link href="/team-details">Kathryn Murphy</Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>
@@ -79,17 +79,17 @@ const TeamAreaFive = () => {
                   <img src="assets/img/home-7/17.png" alt="img" />
                   <ul className="team-social-inner">
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
@@ -97,7 +97,7 @@ const TeamAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/team-details">Kathryn Murphy</Link>
+                    <Link href="/team-details">Kathryn Murphy</Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>

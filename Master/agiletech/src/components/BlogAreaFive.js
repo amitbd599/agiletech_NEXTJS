@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaCalendarAlt, FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 const BlogAreaFive = () => {
   return (
     <>
@@ -36,7 +36,7 @@ const BlogAreaFive = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
@@ -45,7 +45,7 @@ const BlogAreaFive = () => {
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" to="/blog-details">
+                    <Link className="read-more-text" href="/blog-details">
                       Read More <FaPlus />
                     </Link>
                   </div>
@@ -70,7 +70,7 @@ const BlogAreaFive = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
@@ -79,7 +79,7 @@ const BlogAreaFive = () => {
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" to="/blog-details">
+                    <Link className="read-more-text" href="/blog-details">
                       Read More <FaPlus />
                     </Link>
                   </div>
@@ -104,7 +104,7 @@ const BlogAreaFive = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
@@ -113,7 +113,7 @@ const BlogAreaFive = () => {
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" to="/blog-details">
+                    <Link className="read-more-text" href="/blog-details">
                       Read More <FaPlus />
                     </Link>
                   </div>

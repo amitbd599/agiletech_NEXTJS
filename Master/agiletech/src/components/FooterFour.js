@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaChevronRight,
@@ -10,7 +11,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const FooterFour = () => {
   return (
@@ -46,7 +46,7 @@ const FooterFour = () => {
                 <div className="col-lg-4">
                   <Link
                     className="btn w-100 btn-black sky border-radius-0"
-                    to="#"
+                    href="#"
                   >
                     Submit now
                   </Link>
@@ -75,22 +75,22 @@ const FooterFour = () => {
                   </ul>
                   <ul className="social-media mt-4">
                     <li>
-                      <Link to="#" className="sky">
+                      <Link href="#" className="sky">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="sky">
+                      <Link href="#" className="sky">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="sky">
+                      <Link href="#" className="sky">
                         <FaInstagram />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#" className="sky">
+                      <Link href="#" className="sky">
                         <FaYoutube />
                       </Link>
                     </li>
@@ -103,32 +103,32 @@ const FooterFour = () => {
                 <h4 className="widget-title">Our Service</h4>
                 <ul>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Ui Design
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Web design
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Digital marketing{' '}
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Video Editing
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Pc Repairs
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Web Development
                     </Link>
                   </li>
@@ -140,32 +140,32 @@ const FooterFour = () => {
                 <h4 className="widget-title">Pay links</h4>
                 <ul>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Credit industrys
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Reasearch sector
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Finance Sector{' '}
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Credit industrys
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Reasearch sector
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Finance Sector
                     </Link>
                   </li>
@@ -184,7 +184,7 @@ const FooterFour = () => {
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className="title sky mb-0">
-                          <Link to="/blog-details">
+                          <Link href="/blog-details">
                             Social Media For Promote Business.
                           </Link>
                         </h6>
@@ -199,7 +199,7 @@ const FooterFour = () => {
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className="title sky mb-0">
-                          <Link to="/blog-details">
+                          <Link href="/blog-details">
                             Marketing For Base marketing watch
                           </Link>
                         </h6>
@@ -218,9 +218,9 @@ const FooterFour = () => {
                 <p>© AglieTech 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
-                <Link to="#">Trams &amp; Condition</Link>
-                <Link to="#">Privacy Policy</Link>
-                <Link to="#">Contact Us</Link>
+                <Link href="#">Trams &amp; Condition</Link>
+                <Link href="#">Privacy Policy</Link>
+                <Link href="#">Contact Us</Link>
               </div>
             </div>
           </div>

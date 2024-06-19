@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaChevronRight, FaStar } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const TestimonialSix = () => {
   return (
@@ -17,7 +17,7 @@ const TestimonialSix = () => {
                 <h2 className="title">Elevating Digital Art To New Height</h2>
               </div>
               <div className="col-lg-7 text-lg-end d-lg-block d-none">
-                <Link className="btn btn-base-blue" to="/about">
+                <Link className="btn btn-base-blue" href="/about">
                   All Digital <FaChevronRight className="mt-4" />
                 </Link>
               </div>

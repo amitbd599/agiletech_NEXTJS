@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaArrowRight, FaRegFolderOpen, FaRegUser } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const BlogAreaNine = () => {
   return (
@@ -17,7 +17,7 @@ const BlogAreaNine = () => {
                 </h2>
               </div>
               <div className="col-lg-7 text-lg-end align-self-center">
-                <Link className="btn btn-base bg-base-9" to="/about">
+                <Link className="btn btn-base bg-base-9" href="/about">
                   More Blogs <FaArrowRight />
                 </Link>
               </div>
@@ -47,7 +47,7 @@ const BlogAreaNine = () => {
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           Transforming the world of ownership with NFTs
                         </Link>
                       </h5>
@@ -58,7 +58,7 @@ const BlogAreaNine = () => {
                       </p>
                       <Link
                         className="read-more-text text-white"
-                        to="/blog-details"
+                        href="/blog-details"
                       >
                         Read More <FaArrowRight />
                       </Link>
@@ -90,7 +90,7 @@ const BlogAreaNine = () => {
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           Transforming the world of ownership with NFTs
                         </Link>
                       </h5>
@@ -101,7 +101,7 @@ const BlogAreaNine = () => {
                       </p>
                       <Link
                         className="read-more-text text-white"
-                        to="/blog-details"
+                        href="/blog-details"
                       >
                         Read More <FaArrowRight />
                       </Link>
@@ -133,7 +133,7 @@ const BlogAreaNine = () => {
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           Transforming the world of ownership with NFTs
                         </Link>
                       </h5>
@@ -144,7 +144,7 @@ const BlogAreaNine = () => {
                       </p>
                       <Link
                         className="read-more-text text-white"
-                        to="/blog-details"
+                        href="/blog-details"
                       >
                         Read More <FaArrowRight />
                       </Link>
@@ -176,7 +176,7 @@ const BlogAreaNine = () => {
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
-                        <Link to="/blog-details">
+                        <Link href="/blog-details">
                           Transforming the world of ownership with NFTs
                         </Link>
                       </h5>
@@ -187,7 +187,7 @@ const BlogAreaNine = () => {
                       </p>
                       <Link
                         className="read-more-text text-white"
-                        to="/blog-details"
+                        href="/blog-details"
                       >
                         Read More <FaArrowRight />
                       </Link>

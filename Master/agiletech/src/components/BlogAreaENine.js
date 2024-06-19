@@ -1,11 +1,11 @@
+'use client'
+import Link from 'next/link';
 import React from 'react';
 import {
-  FaArrowRight,
   FaPlus,
   FaRegFolderOpen,
   FaRegUser,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const BlogAreaENine = () => {
   return (
@@ -22,7 +22,7 @@ const BlogAreaENine = () => {
                 </h2>
               </div>
               <div className="col-lg-5 text-lg-end align-self-end">
-                <Link className="btn btn-border-base" to="/blog">
+                <Link className="btn btn-border-base" href="/blog">
                   More Blogs
                 </Link>
               </div>
@@ -48,11 +48,11 @@ const BlogAreaENine = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
-                  <Link className="read-more-text" to="/blog-details">
+                  <Link className="read-more-text" href="/blog-details">
                     Discover More <FaPlus className="mb-1" />
                   </Link>
                 </div>
@@ -77,11 +77,11 @@ const BlogAreaENine = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
-                  <Link className="read-more-text" to="/blog-details">
+                  <Link className="read-more-text" href="/blog-details">
                     Discover More <FaPlus className="mb-1" />
                   </Link>
                 </div>
@@ -106,11 +106,11 @@ const BlogAreaENine = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
-                  <Link className="read-more-text" to="/blog-details">
+                  <Link className="read-more-text" href="/blog-details">
                     Discover More <FaPlus className="mb-1" />
                   </Link>
                 </div>

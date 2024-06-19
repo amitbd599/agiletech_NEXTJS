@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaChevronRight } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const WorkProcessSix = () => {
   return (
@@ -25,7 +25,7 @@ const WorkProcessSix = () => {
                     Research ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
-                  <Link className="btn btn-base-pink mt-4" to="#">
+                  <Link className="btn btn-base-pink mt-4" href="#">
                     Read More <FaChevronRight className="mt-4" />
                   </Link>
                 </div>
@@ -40,7 +40,7 @@ const WorkProcessSix = () => {
                     Create ipsum dolor sit consec tetur sed diam in the aliquam
                     tempor
                   </p>
-                  <Link className="btn btn-base-pink mt-4" to="#">
+                  <Link className="btn btn-base-pink mt-4" href="#">
                     Read More <FaChevronRight className="mt-4" />
                   </Link>
                 </div>
@@ -55,7 +55,7 @@ const WorkProcessSix = () => {
                     Develope ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
-                  <Link className="btn btn-base-pink mt-4" to="#">
+                  <Link className="btn btn-base-pink mt-4" href="#">
                     Read More <FaChevronRight className="mt-4" />
                   </Link>
                 </div>

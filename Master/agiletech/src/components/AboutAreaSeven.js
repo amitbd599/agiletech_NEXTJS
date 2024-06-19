@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const AboutAreaSeven = () => {
   return (
@@ -64,7 +64,7 @@ const AboutAreaSeven = () => {
                     Cyber dummy text of the printing and industry Loreaim
                   </strong>
                 </p>
-                <Link className="btn btn-base mt-0 me-3" to="#">
+                <Link className="btn btn-base mt-0 me-3" href="#">
                   Explore Now
                 </Link>
                 <img src="assets/img/about/33.png" alt="img" />

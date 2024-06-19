@@ -1,5 +1,5 @@
+import Link from 'next/link';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const ServiceAreaSix = () => {
   return (
@@ -28,7 +28,7 @@ const ServiceAreaSix = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Network Security</Link>
+                    <Link href="/service-details">Network Security</Link>
                   </h5>
                   <p className="mb-0">
                     You can access SaaS applications through a web browser or
@@ -44,7 +44,7 @@ const ServiceAreaSix = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Data Encryption</Link>
+                    <Link href="/service-details">Data Encryption</Link>
                   </h5>
                   <p className="mb-0">
                     You can access SaaS applications through a web browser or
@@ -60,7 +60,7 @@ const ServiceAreaSix = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Malware Removal</Link>
+                    <Link href="/service-details">Malware Removal</Link>
                   </h5>
                   <p className="mb-0">
                     You can access SaaS applications through a web browser or
@@ -76,7 +76,7 @@ const ServiceAreaSix = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Web Security</Link>
+                    <Link href="/service-details">Web Security</Link>
                   </h5>
                   <p className="mb-0">
                     You can access SaaS applications through a web browser or
@@ -92,7 +92,7 @@ const ServiceAreaSix = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Data Encryption</Link>
+                    <Link href="/service-details">Data Encryption</Link>
                   </h5>
                   <p className="mb-0">
                     You can access SaaS applications through a web browser or
@@ -108,7 +108,7 @@ const ServiceAreaSix = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Email Security</Link>
+                    <Link href="/service-details">Email Security</Link>
                   </h5>
                   <p className="mb-0">
                     You can access SaaS applications through a web browser or

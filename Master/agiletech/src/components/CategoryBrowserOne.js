@@ -1,6 +1,6 @@
+import Link from "next/link";
 import React from "react";
 import { FaPlus } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 
 const CategoryBrowserOne = () => {
   return (
@@ -12,7 +12,7 @@ const CategoryBrowserOne = () => {
               <h2 className='title'>Browse by category</h2>
             </div>
             <div className='col-md-4 text-md-end'>
-              <Link className='btn btn-base-pink mt-lg-0' to='about'>
+              <Link className='btn btn-base-pink mt-lg-0' href='about'>
                 All Category <FaPlus />
               </Link>
             </div>

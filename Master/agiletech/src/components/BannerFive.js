@@ -1,7 +1,8 @@
+'use client'
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaPlus } from 'react-icons/fa';
 import ModalVideo from 'react-modal-video';
-import { Link } from 'react-router-dom';
 
 const BannerFive = () => {
   const [isOpen, setOpen] = useState(false);
@@ -46,7 +47,7 @@ const BannerFive = () => {
                   data-aos="fade-right"
                   data-aos-delay="450"
                   data-aos-duration="1500"
-                  to="/about"
+                  href="/about"
                 >
                   Discover More <FaPlus />
                 </Link>
@@ -57,7 +58,7 @@ const BannerFive = () => {
                   data-aos-duration="1500"
                 >
                   <Link
-                    to="#"
+                    href="#"
                     onClick={() => setOpen(true)}
                     className="video-play-btn-hover"
                   >

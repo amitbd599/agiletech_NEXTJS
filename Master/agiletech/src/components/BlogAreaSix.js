@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
-import { FaArrowRight, FaRegFolder, FaUserAlt } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { FaRegFolder, FaUserAlt } from 'react-icons/fa';
 const BlogAreaSix = () => {
   return (
     <>
@@ -14,7 +14,7 @@ const BlogAreaSix = () => {
                 <h2 className="title">Data Security is Our Top Priority</h2>
               </div>
               <div className="col-xl-8 text-lg-end align-self-end">
-                <Link className="btn btn-base" to="#">
+                <Link className="btn btn-base" href="#">
                   Explore More
                 </Link>
               </div>
@@ -33,7 +33,7 @@ const BlogAreaSix = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
@@ -47,7 +47,7 @@ const BlogAreaSix = () => {
                     src="assets/img/blog/4.png"
                     alt="img"
                   />
-                  <Link className="date-2" to="#">
+                  <Link className="date-2" href="#">
                     11May,2023
                   </Link>
                 </div>
@@ -65,7 +65,7 @@ const BlogAreaSix = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
@@ -79,7 +79,7 @@ const BlogAreaSix = () => {
                     src="assets/img/blog/4.png"
                     alt="img"
                   />
-                  <Link className="date-2" to="#">
+                  <Link className="date-2" href="#">
                     11May,2023
                   </Link>
                 </div>
@@ -97,7 +97,7 @@ const BlogAreaSix = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
@@ -111,7 +111,7 @@ const BlogAreaSix = () => {
                     src="assets/img/blog/4.png"
                     alt="img"
                   />
-                  <Link className="date-2" to="#">
+                  <Link className="date-2" href="#">
                     11May,2023
                   </Link>
                 </div>

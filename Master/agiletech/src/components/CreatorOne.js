@@ -1,3 +1,5 @@
+'use client'
+import Link from 'next/link';
 import React from 'react';
 import {
   FaAngleLeft,
@@ -6,7 +8,6 @@ import {
   FaInstagram,
   FaYoutube,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 
 const CreatorOne = () => {
@@ -90,17 +91,17 @@ const CreatorOne = () => {
                   <div className="details">
                     <ul className="social-media">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaYoutube />
                         </Link>
                       </li>
@@ -118,17 +119,17 @@ const CreatorOne = () => {
                   <div className="details">
                     <ul className="social-media">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaYoutube />
                         </Link>
                       </li>
@@ -146,17 +147,17 @@ const CreatorOne = () => {
                   <div className="details">
                     <ul className="social-media">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaYoutube />
                         </Link>
                       </li>
@@ -174,17 +175,17 @@ const CreatorOne = () => {
                   <div className="details">
                     <ul className="social-media">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaYoutube />
                         </Link>
                       </li>
@@ -202,17 +203,17 @@ const CreatorOne = () => {
                   <div className="details">
                     <ul className="social-media">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaYoutube />
                         </Link>
                       </li>
@@ -230,17 +231,17 @@ const CreatorOne = () => {
                   <div className="details">
                     <ul className="social-media">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaYoutube />
                         </Link>
                       </li>

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaAngleLeft,
@@ -6,7 +7,6 @@ import {
   FaRegFolderOpen,
   FaRegUser,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const BlogGroupThree = () => {
   return (
@@ -35,11 +35,11 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
-                  <Link className="btn btn-border-base" to="/blog-details">
+                  <Link className="btn btn-border-base" href="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
                   </Link>
                 </div>
@@ -65,11 +65,11 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
-                  <Link className="btn btn-border-base" to="/blog-details">
+                  <Link className="btn btn-border-base" href="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
                   </Link>
                 </div>
@@ -95,11 +95,11 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
-                  <Link className="btn btn-border-base" to="/blog-details">
+                  <Link className="btn btn-border-base" href="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
                   </Link>
                 </div>
@@ -125,11 +125,11 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
-                  <Link className="btn btn-border-base" to="/blog-details">
+                  <Link className="btn btn-border-base" href="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
                   </Link>
                 </div>
@@ -155,11 +155,11 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
-                  <Link className="btn btn-border-base" to="/blog-details">
+                  <Link className="btn btn-border-base" href="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
                   </Link>
                 </div>
@@ -185,11 +185,11 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
-                  <Link className="btn btn-border-base" to="/blog-details">
+                  <Link className="btn btn-border-base" href="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
                   </Link>
                 </div>
@@ -197,20 +197,20 @@ const BlogGroupThree = () => {
             </div>
           </div>
           <div className="pagination">
-            <Link className="prev page-numbers" to="#">
+            <Link className="prev page-numbers" href="#">
               <FaAngleLeft className="mb-1" />
             </Link>
-            <Link className="page-numbers" to="#">
+            <Link className="page-numbers" href="#">
               1
             </Link>
             <span className="page-numbers current">2</span>
-            <Link className="page-numbers" to="#">
+            <Link className="page-numbers" href="#">
               3
             </Link>
-            <Link className="page-numbers" to="#">
+            <Link className="page-numbers" href="#">
               4
             </Link>
-            <Link className="next page-numbers" to="#">
+            <Link className="next page-numbers" href="#">
               <FaAngleRight className="mb-1" />
             </Link>
           </div>

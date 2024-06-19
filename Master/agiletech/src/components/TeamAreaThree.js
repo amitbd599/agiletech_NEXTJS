@@ -1,3 +1,5 @@
+'use client'
+import Link from 'next/link';
 import React from 'react';
 import {
   FaAngleLeft,
@@ -6,7 +8,6 @@ import {
   FaInstagram,
   FaTwitter,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 
 const TeamAreaThree = () => {
@@ -81,17 +82,17 @@ const TeamAreaThree = () => {
                     <img src="assets/img/team/1.png" alt="img" />
                     <ul className="team-social-inner border-radius-5 sky">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF className="text-white" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaTwitter className="text-white" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram className="text-white" />
                         </Link>
                       </li>
@@ -99,7 +100,7 @@ const TeamAreaThree = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <Link to="/team-details">Devon Lane</Link>
+                      <Link href="/team-details">Devon Lane</Link>
                     </h5>
                     <p>SEO Department</p>
                   </div>
@@ -111,17 +112,17 @@ const TeamAreaThree = () => {
                     <img src="assets/img/team/2.png" alt="img" />
                     <ul className="team-social-inner border-radius-5 sky">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF className="text-white" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaTwitter className="text-white" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram className="text-white" />
                         </Link>
                       </li>
@@ -129,7 +130,7 @@ const TeamAreaThree = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <Link to="/team-details">Darrell Steward</Link>
+                      <Link href="/team-details">Darrell Steward</Link>
                     </h5>
                     <p>It Department</p>
                   </div>
@@ -141,17 +142,17 @@ const TeamAreaThree = () => {
                     <img src="assets/img/team/3.png" alt="img" />
                     <ul className="team-social-inner border-radius-5 sky">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF className="text-white" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaTwitter className="text-white" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram className="text-white" />
                         </Link>
                       </li>
@@ -159,7 +160,7 @@ const TeamAreaThree = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <Link to="/team-details">Bessie Cooper</Link>
+                      <Link href="/team-details">Bessie Cooper</Link>
                     </h5>
                     <p>Software Department</p>
                   </div>
@@ -171,17 +172,17 @@ const TeamAreaThree = () => {
                     <img src="assets/img/team/1.png" alt="img" />
                     <ul className="team-social-inner border-radius-5 sky">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF className="text-white" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaTwitter className="text-white" />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram className="text-white" />
                         </Link>
                       </li>
@@ -189,7 +190,7 @@ const TeamAreaThree = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <Link to="/team-details">Devon Lane</Link>
+                      <Link href="/team-details">Devon Lane</Link>
                     </h5>
                     <p>SEO Department</p>
                   </div>

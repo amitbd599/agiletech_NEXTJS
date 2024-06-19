@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const SolutionOne = () => {
   return (
@@ -88,7 +88,7 @@ const SolutionOne = () => {
                       <div className="col-12">
                         <Link
                           className="btn btn-black mt-0 w-100 border-radius-5"
-                          to="#"
+                          href="#"
                         >
                           Submit now
                         </Link>

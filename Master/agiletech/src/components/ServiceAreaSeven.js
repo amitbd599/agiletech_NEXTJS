@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const ServiceAreaSeven = () => {
   return (
@@ -25,7 +25,7 @@ const ServiceAreaSeven = () => {
                   <img src="assets/img/home-7/2.png" alt="img" />
                 </div>
                 <div className="details">
-                  <Link className="btn btn-black" to="/service-details">
+                  <Link className="btn btn-black" href="/service-details">
                     <FaAngleRight className="mt-0" />
                   </Link>
                   <h5 className="mb-3">Website Development</h5>
@@ -43,7 +43,7 @@ const ServiceAreaSeven = () => {
                   <img src="assets/img/home-7/3.png" alt="img" />
                 </div>
                 <div className="details">
-                  <Link className="btn btn-black" to="/service-details">
+                  <Link className="btn btn-black" href="/service-details">
                     <FaAngleRight className="mt-0" />
                   </Link>
                   <h5 className="mb-3">Website Development</h5>
@@ -61,7 +61,7 @@ const ServiceAreaSeven = () => {
                   <img src="assets/img/home-7/4.png" alt="img" />
                 </div>
                 <div className="details">
-                  <Link className="btn btn-black" to="/service-details">
+                  <Link className="btn btn-black" href="/service-details">
                     <FaAngleRight className="mt-0" />
                   </Link>
                   <h5 className="mb-3">Website Development</h5>

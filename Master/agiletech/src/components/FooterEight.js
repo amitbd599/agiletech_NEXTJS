@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaArrowRight,
@@ -9,7 +10,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const FooterEight = () => {
   return (
@@ -28,7 +28,7 @@ const FooterEight = () => {
                 </div>
                 <div className="col-lg-6 align-self-center text-lg-end">
                   <input type="text" placeholder="Your e-mail address" />
-                  <Link className="btn btn-base bg-base-9" to="#">
+                  <Link className="btn btn-base bg-base-9" href="#">
                     Submit now
                   </Link>
                 </div>
@@ -55,22 +55,22 @@ const FooterEight = () => {
                   </p>
                   <ul className="social-media">
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaYoutube />
                       </Link>
                     </li>
@@ -83,32 +83,32 @@ const FooterEight = () => {
                 <h4 className="widget-title">Usefull links</h4>
                 <ul>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Credit industrys
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Reasearch sector
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Finance Sector{' '}
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Credit industrys
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Reasearch sector
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaArrowRight /> Finance Sector
                     </Link>
                   </li>
@@ -143,9 +143,9 @@ const FooterEight = () => {
                 <p>© agiletech 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
-                <Link to="#">Trams &amp; Condition</Link>
-                <Link to="#">Privacy Policy</Link>
-                <Link to="#">Contact Us</Link>
+                <Link href="#">Trams &amp; Condition</Link>
+                <Link href="#">Privacy Policy</Link>
+                <Link href="#">Contact Us</Link>
               </div>
             </div>
           </div>

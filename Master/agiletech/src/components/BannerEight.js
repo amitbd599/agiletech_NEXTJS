@@ -1,7 +1,8 @@
+'use client'
+import Link from 'next/link';
 import React, { useState } from 'react';
-import { FaArrowAltCircleRight, FaPlus } from 'react-icons/fa';
+import { FaArrowAltCircleRight } from 'react-icons/fa';
 import ModalVideo from 'react-modal-video';
-import { Link } from 'react-router-dom';
 
 const BannerEight = () => {
   const [isOpen, setOpen] = useState(false);
@@ -43,7 +44,7 @@ const BannerEight = () => {
                   className="btn btn-base  border-radius-0 wow animated fadeInLeft"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.6s"
-                  to="/about"
+                  href="/about"
                 >
                   Free Consulting <FaArrowAltCircleRight className="mt-4" />
                 </Link>
@@ -55,7 +56,7 @@ const BannerEight = () => {
                   <Link
                     onClick={() => setOpen(true)}
                     className="video-play-btn-hover"
-                    to="#"
+                    href="#"
                   >
                     <img src="assets/img/video.svg" alt="img" />{' '}
                     <h6 className="d-inline-block text-white">Watch Video</h6>

@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const ServiceAreaNine = () => {
   return (
@@ -26,10 +26,10 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">CloudCRM</Link>
+                    <Link href="/service-details">CloudCRM</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" to="/blog-details">
+                  <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
                   </Link>
                 </div>
@@ -42,10 +42,10 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">SmartBiz</Link>
+                    <Link href="/service-details">SmartBiz</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" to="/blog-details">
+                  <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
                   </Link>
                 </div>
@@ -58,10 +58,10 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">AppGenius</Link>
+                    <Link href="/service-details">AppGenius</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" to="/blog-details">
+                  <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
                   </Link>
                 </div>
@@ -76,10 +76,10 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Content Marketing</Link>
+                    <Link href="/service-details">Content Marketing</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" to="/blog-details">
+                  <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
                   </Link>
                 </div>
@@ -92,10 +92,10 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Mobile App Development</Link>
+                    <Link href="/service-details">Mobile App Development</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" to="/blog-details">
+                  <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
                   </Link>
                 </div>
@@ -108,10 +108,10 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Design Solutions</Link>
+                    <Link href="/service-details">Design Solutions</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <Link className="read-more-text" to="/blog-details">
+                  <Link className="read-more-text" href="/blog-details">
                     Touch More <FaPlus />
                   </Link>
                 </div>

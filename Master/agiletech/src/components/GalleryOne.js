@@ -1,7 +1,7 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
 import { FaAnglesRight } from 'react-icons/fa6';
-import { Link } from 'react-router-dom';
 
 const GalleryOne = () => {
   return (
@@ -16,7 +16,7 @@ const GalleryOne = () => {
                 <h2 className="title">Leading The Digital Revolution</h2>
               </div>
               <div className="col-md-4 text-md-end align-self-center">
-                <Link className="btn btn-base bg-base-9 mt-lg-0" to="/about">
+                <Link className="btn btn-base bg-base-9 mt-lg-0" href="/about">
                   All Category <FaPlus />
                 </Link>
               </div>
@@ -30,12 +30,12 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/project-details">Tecnology Farms</Link>
+                    <Link href="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <Link className="cat" to="#">
+                  <Link className="cat" href="#">
                     Las vegas
                   </Link>
-                  <Link className="right-arrow " to="#">
+                  <Link className="right-arrow " href="#">
                     <FaAnglesRight />
                   </Link>
                 </div>
@@ -46,12 +46,12 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/project-details">Tecnology Farms</Link>
+                    <Link href="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <Link className="cat" to="#">
+                  <Link className="cat" href="#">
                     Las vegas
                   </Link>
-                  <Link className="right-arrow " to="#">
+                  <Link className="right-arrow " href="#">
                     <FaAnglesRight />
                   </Link>
                 </div>
@@ -64,12 +64,12 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/project-details">Tecnology Farms</Link>
+                    <Link href="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <Link className="cat" to="#">
+                  <Link className="cat" href="#">
                     Las vegas
                   </Link>
-                  <Link className="right-arrow" to="#">
+                  <Link className="right-arrow" href="#">
                     <FaAnglesRight />
                   </Link>
                 </div>
@@ -80,12 +80,12 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/project-details">Tecnology Farms</Link>
+                    <Link href="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <Link className="cat" to="#">
+                  <Link className="cat" href="#">
                     Las vegas
                   </Link>
-                  <Link className="right-arrow" to="#">
+                  <Link className="right-arrow" href="#">
                     <FaAnglesRight />
                   </Link>
                 </div>
@@ -98,12 +98,12 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/project-details">Tecnology Farms</Link>
+                    <Link href="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <Link className="cat" to="#">
+                  <Link className="cat" href="#">
                     Las vegas
                   </Link>
-                  <Link className="right-arrow" to="#">
+                  <Link className="right-arrow" href="#">
                     <FaAnglesRight />
                   </Link>
                 </div>
@@ -114,12 +114,12 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/project-details">Tecnology Farms</Link>
+                    <Link href="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <Link className="cat" to="#">
+                  <Link className="cat" href="#">
                     Las vegas
                   </Link>
-                  <Link className="right-arrow" to="#">
+                  <Link className="right-arrow" href="#">
                     <FaAnglesRight />
                   </Link>
                 </div>

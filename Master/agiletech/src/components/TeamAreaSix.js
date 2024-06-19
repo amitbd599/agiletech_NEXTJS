@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const TeamAreaSix = () => {
   return (
@@ -27,17 +27,17 @@ const TeamAreaSix = () => {
                 <div className="details">
                   <ul className="social-media">
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaYoutube />
                       </Link>
                     </li>
@@ -55,17 +55,17 @@ const TeamAreaSix = () => {
                 <div className="details">
                   <ul className="social-media">
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaYoutube />
                       </Link>
                     </li>
@@ -83,17 +83,17 @@ const TeamAreaSix = () => {
                 <div className="details">
                   <ul className="social-media">
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaYoutube />
                       </Link>
                     </li>

@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaChevronRight, FaRegFolderOpen, FaUserAlt } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 const BlogAreaSeven = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const BlogAreaSeven = () => {
                 </h2>
               </div>
               <div className="col-lg-7 text-lg-end align-self-center">
-                <Link className="btn btn-base-pink" to="/about">
+                <Link className="btn btn-base-pink" href="/about">
                   More Blogs <FaChevronRight className="mt-4" />
                 </Link>
               </div>
@@ -41,14 +41,14 @@ const BlogAreaSeven = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming the world of ownership with NFTs
                     </Link>
                   </h5>
                   <p className="mb-3">
                     Melbourne is simply is dumiomy is text Lorem Ipsum is simply
                   </p>
-                  <Link className="btn btn-base-pink" to="/blog-details">
+                  <Link className="btn btn-base-pink" href="/blog-details">
                     Read More <FaChevronRight className="mt-4" />
                   </Link>
                 </div>
@@ -73,14 +73,14 @@ const BlogAreaSeven = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The future of collecting is here with NFTs
                     </Link>
                   </h5>
                   <p className="mb-3">
                     Melbourne is simply is dumiomy is text Lorem Ipsum is simply
                   </p>
-                  <Link className="btn btn-base-pink" to="/blog-details">
+                  <Link className="btn btn-base-pink" href="/blog-details">
                     Read More <FaChevronRight className="mt-4" />
                   </Link>
                 </div>
@@ -105,14 +105,14 @@ const BlogAreaSeven = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The new standard for digital ownership
                     </Link>
                   </h5>
                   <p className="mb-3">
                     Melbourne is simply is dumiomy is text Lorem Ipsum is simply
                   </p>
-                  <Link className="btn btn-base-pink" to="/blog-details">
+                  <Link className="btn btn-base-pink" href="/blog-details">
                     Read More <FaChevronRight className="mt-4" />
                   </Link>
                 </div>

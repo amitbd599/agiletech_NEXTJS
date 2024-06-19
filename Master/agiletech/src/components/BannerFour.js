@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const BannerFour = () => {
   return (
@@ -39,7 +39,7 @@ const BannerFour = () => {
                       data-aos="fade-right"
                       data-aos-delay="400"
                       data-aos-duration="1500"
-                      to="/about"
+                      href="/about"
                     >
                       Discover More <FaPlus />
                     </Link>

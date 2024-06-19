@@ -1,6 +1,7 @@
+'use client'
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 const BannerTwo = () => {
   const [isOpen, setOpen] = useState(false);
@@ -18,7 +19,7 @@ const BannerTwo = () => {
                 <h6
                   className="subtitle "
                   data-aos="fade-right"
-                  data-aos-delay="100"
+                  data-aos-delay="100" 
                   data-aos-duration="1500"
                 >
                   Designing for the future
@@ -47,7 +48,7 @@ const BannerTwo = () => {
                   data-aos="fade-right"
                   data-aos-delay="300"
                   data-aos-duration="1500"
-                  to="/about"
+                  href="/about"
                 >
                   Discover More <FaPlus />
                 </Link>

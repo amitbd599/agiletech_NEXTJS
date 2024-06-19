@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const ProjectAreaOne = () => {
   return (
@@ -99,7 +99,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -110,7 +110,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -121,7 +121,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -134,7 +134,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -145,7 +145,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -158,7 +158,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -169,7 +169,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -180,7 +180,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -202,7 +202,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -213,7 +213,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -224,7 +224,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -237,7 +237,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -248,7 +248,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -259,7 +259,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -272,7 +272,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -283,7 +283,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -305,7 +305,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -316,7 +316,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -327,7 +327,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -340,7 +340,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -351,7 +351,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -364,7 +364,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -375,7 +375,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -386,7 +386,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -408,7 +408,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -419,7 +419,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -432,7 +432,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -443,7 +443,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -454,7 +454,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -467,7 +467,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -478,7 +478,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -489,7 +489,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -511,7 +511,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -522,7 +522,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -533,7 +533,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -546,7 +546,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -557,7 +557,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -570,7 +570,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -581,7 +581,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>
@@ -592,7 +592,7 @@ const ProjectAreaOne = () => {
                     <span>
                       <FaPlus />
                     </span>
-                    <Link className="read-more-text" to="#">
+                    <Link className="read-more-text" href="#">
                       MORE PROJECT
                     </Link>
                   </div>

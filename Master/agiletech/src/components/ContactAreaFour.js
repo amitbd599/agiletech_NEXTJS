@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const ContactAreaFour = () => {
   return (
@@ -66,7 +66,7 @@ const ContactAreaFour = () => {
                       </div>
                     </div>
                     <div className="col-12">
-                      <Link className="btn btn-border-gray mt-0" to="#">
+                      <Link className="btn btn-border-gray mt-0" href="#">
                         Contact Us <FaPlus />
                       </Link>
                     </div>

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaChevronRight,
@@ -9,7 +10,6 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const FooterTwo = () => {
   return (
@@ -41,32 +41,32 @@ const FooterTwo = () => {
                 <h4 className="widget-title">Our Service</h4>
                 <ul>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Ui Design
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Web design
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Digital marketing{' '}
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Video Editing
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Pc Repairs
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Web Development
                     </Link>
                   </li>
@@ -78,32 +78,32 @@ const FooterTwo = () => {
                 <h4 className="widget-title">Pay links</h4>
                 <ul>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Credit industrys
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Reasearch sector
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Finance Sector{' '}
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Credit industrys
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Reasearch sector
                     </Link>
                   </li>
                   <li>
-                    <Link to="/service">
+                    <Link href="/service">
                       <FaChevronRight /> Finance Sector
                     </Link>
                   </li>
@@ -128,22 +128,22 @@ const FooterTwo = () => {
                   </ul>
                   <ul className="social-media mt-4">
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaYoutube />
                       </Link>
                     </li>
@@ -160,9 +160,9 @@ const FooterTwo = () => {
                 <p>© AglieTech 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
-                <Link to="#">Trams &amp; Condition</Link>
-                <Link to="#">Privacy Policy</Link>
-                <Link to="#">Contact Us</Link>
+                <Link href="#">Trams &amp; Condition</Link>
+                <Link href="#">Privacy Policy</Link>
+                <Link href="#">Contact Us</Link>
               </div>
             </div>
           </div>

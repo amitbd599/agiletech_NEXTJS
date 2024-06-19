@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const TeamAreaTwo = () => {
   return (
@@ -30,22 +30,22 @@ const TeamAreaTwo = () => {
                 <div className="details">
                   <div className="details-inner">
                     <h5>
-                      <Link to="/team-details">Devon Lane</Link>
+                      <Link href="/team-details">Devon Lane</Link>
                     </h5>
                     <p>Merketing Department</p>
                     <ul className="team-social-inner mt-3 mb-1">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaTwitter />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>
@@ -62,22 +62,22 @@ const TeamAreaTwo = () => {
                 <div className="details">
                   <div className="details-inner">
                     <h5>
-                      <Link to="/team-details">Falcon Lane</Link>
+                      <Link href="/team-details">Falcon Lane</Link>
                     </h5>
                     <p>Merketing Department</p>
                     <ul className="team-social-inner mt-3 mb-1">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaTwitter />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>
@@ -94,22 +94,22 @@ const TeamAreaTwo = () => {
                 <div className="details">
                   <div className="details-inner">
                     <h5>
-                      <Link to="/team-details">Wilson Jac</Link>
+                      <Link href="/team-details">Wilson Jac</Link>
                     </h5>
                     <p>Merketing Department</p>
                     <ul className="team-social-inner mt-3 mb-1">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaTwitter />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>

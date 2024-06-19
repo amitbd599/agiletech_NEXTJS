@@ -1,6 +1,6 @@
+import Link from "next/link";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const ServiceAreaFour = () => {
   return (
@@ -33,7 +33,7 @@ const ServiceAreaFour = () => {
                     Research ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
-                  <Link className='read-more-text' to='/service-details'>
+                  <Link className='read-more-text' href='/service-details'>
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -50,7 +50,7 @@ const ServiceAreaFour = () => {
                     Create ipsum dolor sit consec tetur sed diam in the aliquam
                     tempor
                   </p>
-                  <Link className='read-more-text' to='/service-details'>
+                  <Link className='read-more-text' href='/service-details'>
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -67,7 +67,7 @@ const ServiceAreaFour = () => {
                     Develope ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
-                  <Link className='read-more-text' to='/service-details'>
+                  <Link className='read-more-text' href='/service-details'>
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -84,7 +84,7 @@ const ServiceAreaFour = () => {
                     Shop ipsum dolor sit consec tetur Malesuada sed diam in the
                     aliquam tempor
                   </p>
-                  <Link className='read-more-text' to='/service-details'>
+                  <Link className='read-more-text' href='/service-details'>
                     Read More <FaArrowRight />
                   </Link>
                 </div>

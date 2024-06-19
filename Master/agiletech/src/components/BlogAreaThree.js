@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaArrowRight, FaRegFolderOpen, FaRegUser } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 const BlogAreaThree = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const BlogAreaThree = () => {
                 </h2>
               </div>
               <div className="col-lg-5 text-lg-end align-self-end">
-                <Link className="btn btn-border-base" to="/blog">
+                <Link className="btn btn-border-base" href="/blog">
                   More Blogs
                 </Link>
               </div>
@@ -43,11 +43,11 @@ const BlogAreaThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
-                  <Link className="btn btn-border-base" to="/blog-details">
+                  <Link className="btn btn-border-base" href="/blog-details">
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -73,11 +73,11 @@ const BlogAreaThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
-                  <Link className="btn btn-border-base" to="/blog-details">
+                  <Link className="btn btn-border-base" href="/blog-details">
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -103,11 +103,11 @@ const BlogAreaThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
-                  <Link className="btn btn-border-base" to="/blog-details">
+                  <Link className="btn btn-border-base" href="/blog-details">
                     Read More <FaArrowRight />
                   </Link>
                 </div>

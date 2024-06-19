@@ -1,6 +1,6 @@
+import Link from "next/link";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
 const BlogAreaFour = () => {
   return (
     <>
@@ -32,11 +32,11 @@ const BlogAreaFour = () => {
                   <p className='cat'>NEWS</p>
                   <p className='date'>11 january,2023</p>
                   <h5 className='mb-3'>
-                    <Link to='/blog-details'>
+                    <Link href='/blog-details'>
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
-                  <Link className='read-more-text' to='/blog-details'>
+                  <Link className='read-more-text' href='/blog-details'>
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -55,11 +55,11 @@ const BlogAreaFour = () => {
                   <p className='cat'>NEWS</p>
                   <p className='date'>11 january,2023</p>
                   <h5 className='mb-3'>
-                    <Link to='/blog-details'>
+                    <Link href='/blog-details'>
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
-                  <Link className='read-more-text' to='/blog-details'>
+                  <Link className='read-more-text' href='/blog-details'>
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -78,11 +78,11 @@ const BlogAreaFour = () => {
                   <p className='cat'>NEWS</p>
                   <p className='date'>11 january,2023</p>
                   <h5 className='mb-3'>
-                    <Link to='/blog-details'>
+                    <Link href='/blog-details'>
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
-                  <Link className='read-more-text' to='/blog-details'>
+                  <Link className='read-more-text' href='/blog-details'>
                     Read More <FaArrowRight />
                   </Link>
                 </div>

@@ -1,7 +1,8 @@
+'use client'
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaPlus } from 'react-icons/fa';
 import ModalVideo from 'react-modal-video';
-import { Link } from 'react-router-dom';
 
 const BannerThree = () => {
   const [isOpen, setOpen] = useState(false);
@@ -48,7 +49,7 @@ const BannerThree = () => {
                   data-aos="fade-right"
                   data-aos-delay="300"
                   data-aos-duration="1500"
-                  to="/about"
+                  href="/about"
                 >
                   Discover More <FaPlus />
                 </Link>

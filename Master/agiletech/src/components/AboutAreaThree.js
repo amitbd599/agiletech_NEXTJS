@@ -1,7 +1,7 @@
+import Link from "next/link";
 import React from "react";
 import Marquee from "react-fast-marquee";
 import { FaCheckCircle, FaPlus } from "react-icons/fa";
-import { Link } from "react-router-dom";
 const AboutAreaThree = () => {
   return (
     <>
@@ -66,7 +66,7 @@ const AboutAreaThree = () => {
                   authentication. However, it is important to research and
                   choose a reputable provider and also to ensure that
                 </p>
-                <Link className='btn btn-border-base' to='/about'>
+                <Link className='btn btn-border-base' href='/about'>
                   Discover More <FaPlus />
                 </Link>
               </div>

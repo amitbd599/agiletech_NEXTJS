@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaCheck } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const PriceAreaThree = () => {
   return (
@@ -49,7 +49,7 @@ const PriceAreaThree = () => {
                 </ul>
                 <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  to="#"
+                  href="#"
                 >
                   Started
                 </Link>
@@ -89,7 +89,7 @@ const PriceAreaThree = () => {
                 </ul>
                 <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  to="#"
+                  href="#"
                 >
                   Started
                 </Link>
@@ -129,7 +129,7 @@ const PriceAreaThree = () => {
                 </ul>
                 <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  to="#"
+                  href="#"
                 >
                   Started
                 </Link>

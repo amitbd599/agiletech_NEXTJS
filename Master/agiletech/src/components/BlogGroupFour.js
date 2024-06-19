@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaAngleLeft,
@@ -5,7 +6,6 @@ import {
   FaCalendarAlt,
   FaPlus,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const BlogGroupFour = () => {
   return (
@@ -32,7 +32,7 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
@@ -41,7 +41,7 @@ const BlogGroupFour = () => {
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" to="/blog-details">
+                    <Link className="read-more-text" href="/blog-details">
                       Read More <FaPlus className="mb-1" />
                     </Link>
                   </div>
@@ -66,7 +66,7 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
@@ -75,7 +75,7 @@ const BlogGroupFour = () => {
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" to="/blog-details">
+                    <Link className="read-more-text" href="/blog-details">
                       Read More <FaPlus className="mb-1" />
                     </Link>
                   </div>
@@ -100,7 +100,7 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
@@ -109,7 +109,7 @@ const BlogGroupFour = () => {
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" to="/blog-details">
+                    <Link className="read-more-text" href="/blog-details">
                       Read More <FaPlus className="mb-1" />
                     </Link>
                   </div>
@@ -134,7 +134,7 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
@@ -143,7 +143,7 @@ const BlogGroupFour = () => {
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" to="/blog-details">
+                    <Link className="read-more-text" href="/blog-details">
                       Read More <FaPlus className="mb-1" />
                     </Link>
                   </div>
@@ -168,7 +168,7 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
@@ -177,7 +177,7 @@ const BlogGroupFour = () => {
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" to="/blog-details">
+                    <Link className="read-more-text" href="/blog-details">
                       Read More <FaPlus className="mb-1" />
                     </Link>
                   </div>
@@ -202,7 +202,7 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
@@ -211,7 +211,7 @@ const BlogGroupFour = () => {
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" to="/blog-details">
+                    <Link className="read-more-text" href="/blog-details">
                       Read More <FaPlus className="mb-1" />
                     </Link>
                   </div>
@@ -220,20 +220,20 @@ const BlogGroupFour = () => {
             </div>
           </div>
           <div className="pagination">
-            <Link className="prev page-numbers" to="#">
+            <Link className="prev page-numbers" href="#">
               <FaAngleLeft className="mb-1" />
             </Link>
-            <Link className="page-numbers" to="#">
+            <Link className="page-numbers" href="#">
               1
             </Link>
             <span className="page-numbers current">2</span>
-            <Link className="page-numbers" to="#">
+            <Link className="page-numbers" href="#">
               3
             </Link>
-            <Link className="page-numbers" to="#">
+            <Link className="page-numbers" href="#">
               4
             </Link>
-            <Link className="next page-numbers" to="#">
+            <Link className="next page-numbers" href="#">
               <FaAngleRight className="mb-1" />
             </Link>
           </div>

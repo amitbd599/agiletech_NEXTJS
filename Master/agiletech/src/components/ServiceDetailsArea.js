@@ -1,10 +1,10 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaAngleDoubleRight,
   FaArrowRight,
   FaCheckCircle,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const ServiceDetailsArea = () => {
   return (
@@ -21,19 +21,19 @@ const ServiceDetailsArea = () => {
                   </h5>
                   <ul className="catagory-items">
                     <li>
-                      <Link to="/service-details"> Planning Department</Link>
+                      <Link href="/service-details"> Planning Department</Link>
                     </li>
                     <li>
-                      <Link to="/service-details"> Software Department</Link>
+                      <Link href="/service-details"> Software Department</Link>
                     </li>
                     <li>
-                      <Link to="/service-details"> Hardware Department</Link>
+                      <Link href="/service-details"> Hardware Department</Link>
                     </li>
                     <li>
-                      <Link to="/service-details"> It Department</Link>
+                      <Link href="/service-details"> It Department</Link>
                     </li>
                     <li>
-                      <Link to="/service-details"> Others Development</Link>
+                      <Link href="/service-details"> Others Development</Link>
                     </li>
                   </ul>
                 </div>
@@ -42,7 +42,7 @@ const ServiceDetailsArea = () => {
                     <img src="assets/img/about/9.png" alt="img" />
                   </div>
                   <div className="details">
-                    <Link className="btn btn-base border-radius-5" to="#">
+                    <Link className="btn btn-base border-radius-5" href="#">
                       Discover our company +
                     </Link>
                   </div>
@@ -53,13 +53,13 @@ const ServiceDetailsArea = () => {
                   </h5>
                   <ul>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         {' '}
                         Company Profile <FaAngleDoubleRight />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         {' '}
                         Zip File Download <FaAngleDoubleRight />
                       </Link>

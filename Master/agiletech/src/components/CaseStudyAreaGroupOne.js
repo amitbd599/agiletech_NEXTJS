@@ -1,5 +1,5 @@
+import Link from 'next/link';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const CaseStudyAreaGroupOne = () => {
   return (
@@ -15,9 +15,9 @@ const CaseStudyAreaGroupOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/case-study-details">Mind Tech</Link>
+                    <Link href="/case-study-details">Mind Tech</Link>
                   </h5>
-                  <Link className="cat" to='#'>
+                  <Link className="cat" href='#'>
                     Las vegas
                   </Link>
                 </div>
@@ -30,9 +30,9 @@ const CaseStudyAreaGroupOne = () => {
                     </div>
                     <div className="details">
                       <h5>
-                        <Link to="/case-study-details">Wise Mind</Link>
+                        <Link href="/case-study-details">Wise Mind</Link>
                       </h5>
-                      <Link className="cat" to='#'>
+                      <Link className="cat" href='#'>
                         Las vegas
                       </Link>
                     </div>
@@ -45,9 +45,9 @@ const CaseStudyAreaGroupOne = () => {
                     </div>
                     <div className="details">
                       <h5>
-                        <Link to="/case-study-details">Tecnology Farms</Link>
+                        <Link href="/case-study-details">Tecnology Farms</Link>
                       </h5>
-                      <Link className="cat" to='#'>
+                      <Link className="cat" href='#'>
                         Las vegas
                       </Link>
                     </div>
@@ -62,9 +62,9 @@ const CaseStudyAreaGroupOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/case-study-details">Neural Logic.</Link>
+                    <Link href="/case-study-details">Neural Logic.</Link>
                   </h5>
-                  <Link className="cat" to='#'>
+                  <Link className="cat" href='#'>
                     California
                   </Link>
                 </div>
@@ -75,9 +75,9 @@ const CaseStudyAreaGroupOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/case-study-details">AI Farms</Link>
+                    <Link href="/case-study-details">AI Farms</Link>
                   </h5>
-                  <Link className="cat" to='#'>
+                  <Link className="cat" href='#'>
                     California
                   </Link>
                 </div>

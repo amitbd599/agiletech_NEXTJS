@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 const ServiceAreaGroupFive = () => {
   return (
     <>
@@ -15,13 +15,13 @@ const ServiceAreaGroupFive = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Only the best</Link>
+                    <Link href="/service-details">Only the best</Link>
                   </h5>
                   <p>
                     You can access SaaS applications through a web browser or
                     mobile app, as long as you have an internet connection
                   </p>
-                  <Link className="read-more-text" to="/service-details">
+                  <Link className="read-more-text" href="/service-details">
                     Touch More <FaPlus />
                   </Link>
                 </div>
@@ -34,13 +34,13 @@ const ServiceAreaGroupFive = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">Focusing on details</Link>
+                    <Link href="/service-details">Focusing on details</Link>
                   </h5>
                   <p>
                     You can access SaaS applications through a web browser or
                     mobile app, as long as you have an internet connection
                   </p>
-                  <Link className="read-more-text" to="/service-details">
+                  <Link className="read-more-text" href="/service-details">
                     Touch More <FaPlus />
                   </Link>
                 </div>
@@ -53,13 +53,13 @@ const ServiceAreaGroupFive = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <Link to="/service-details">No flaws here</Link>
+                    <Link href="/service-details">No flaws here</Link>
                   </h5>
                   <p>
                     You can access SaaS applications through a web browser or
                     mobile app, as long as you have an internet connection
                   </p>
-                  <Link className="read-more-text" to="/service-details">
+                  <Link className="read-more-text" href="/service-details">
                     Touch More <FaPlus />
                   </Link>
                 </div>

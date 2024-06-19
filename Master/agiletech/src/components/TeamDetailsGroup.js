@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   FaFacebookF,
@@ -7,7 +8,6 @@ import {
   FaPlus,
   FaTwitter,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const TeamDetailsGroup = () => {
   return (
@@ -42,27 +42,27 @@ const TeamDetailsGroup = () => {
                 </div>
                 <ul className='social-media style-base mt-4 pt-2'>
                   <li>
-                    <Link to="#">
+                    <Link href="#">
                       <FaFacebookF aria-hidden='true' />
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link href="#">
                       <FaTwitter aria-hidden='true' />
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link href="#">
                       <FaInstagram aria-hidden='true' />
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link href="#">
                       <FaPinterest aria-hidden='true' />
                     </Link>
                   </li>
                   <li>
-                    <Link to="#">
+                    <Link href="#">
                       <FaLinkedinIn aria-hidden='true' />
                     </Link>
                   </li>
@@ -88,13 +88,13 @@ const TeamDetailsGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/service-details'>Mobile App Development</Link>
+                    <Link href='/service-details'>Mobile App Development</Link>
                   </h5>
                   <p>
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
                     is simply is our busi Lorem is Ipsum is
                   </p>
-                  <Link className='btn btn-border-base' to='/service-details'>
+                  <Link className='btn btn-border-base' href='/service-details'>
                     Touch More <FaPlus />
                   </Link>
                 </div>
@@ -107,13 +107,13 @@ const TeamDetailsGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/service-details'>Content Marketing</Link>
+                    <Link href='/service-details'>Content Marketing</Link>
                   </h5>
                   <p>
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
                     is simply is our busi Lorem is Ipsum is
                   </p>
-                  <Link className='btn btn-border-base' to='/service-details'>
+                  <Link className='btn btn-border-base' href='/service-details'>
                     Touch More <FaPlus />
                   </Link>
                 </div>
@@ -126,13 +126,13 @@ const TeamDetailsGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/service-details'>E-commerce Solutions</Link>
+                    <Link href='/service-details'>E-commerce Solutions</Link>
                   </h5>
                   <p>
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
                     is simply is our busi Lorem is Ipsum is
                   </p>
-                  <Link className='btn btn-border-base' to='/service-details'>
+                  <Link className='btn btn-border-base' href='/service-details'>
                     Touch More <FaPlus />
                   </Link>
                 </div>

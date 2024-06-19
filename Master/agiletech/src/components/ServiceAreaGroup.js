@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import serviceList from "../scripts/serviceList";
+import Link from "next/link";
 
 const ServiceAreaGroup = () => {
   return (
@@ -29,10 +29,10 @@ const ServiceAreaGroup = () => {
                   </div>
                   <div className='details'>
                     <h5>
-                      <Link to='/service-details'>{data.title}</Link>
+                      <Link href='/service-details'>{data.title}</Link>
                     </h5>
                     <p>{data.des}</p>
-                    <Link className='btn btn-border-base' to='/service-details'>
+                    <Link className='btn btn-border-base' href='/service-details'>
                       Touch More <FaPlus />
                     </Link>
                   </div>

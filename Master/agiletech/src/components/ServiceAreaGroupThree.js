@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 const ServiceAreaGroupThree = () => {
   return (
     <>
@@ -19,7 +19,7 @@ const ServiceAreaGroupThree = () => {
                     Research ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
-                  <Link className="read-more-text" to="/service-details">
+                  <Link className="read-more-text" href="/service-details">
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -36,7 +36,7 @@ const ServiceAreaGroupThree = () => {
                     Create ipsum dolor sit consec tetur sed diam in the aliquam
                     tempor
                   </p>
-                  <Link className="read-more-text" to="/service-details">
+                  <Link className="read-more-text" href="/service-details">
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -53,7 +53,7 @@ const ServiceAreaGroupThree = () => {
                     Develope ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
-                  <Link className="read-more-text" to="/service-details">
+                  <Link className="read-more-text" href="/service-details">
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -70,7 +70,7 @@ const ServiceAreaGroupThree = () => {
                     Shop ipsum dolor sit consec tetur Malesuada sed diam in the
                     tempor
                   </p>
-                  <Link className="read-more-text" to="/service-details">
+                  <Link className="read-more-text" href="/service-details">
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -87,7 +87,7 @@ const ServiceAreaGroupThree = () => {
                     Research ipsum dolor sit consec tetur sed diam in the
                     aliquam
                   </p>
-                  <Link className="read-more-text" to="/service-details">
+                  <Link className="read-more-text" href="/service-details">
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -103,7 +103,7 @@ const ServiceAreaGroupThree = () => {
                   <p className="content mb-3">
                     Create ipsum dolor sit consec tetur sed diam in the aliquam
                   </p>
-                  <Link className="read-more-text" to="/service-details">
+                  <Link className="read-more-text" href="/service-details">
                     Read More <FaArrowRight />
                   </Link>
                 </div>

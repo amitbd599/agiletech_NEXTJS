@@ -1,6 +1,6 @@
+import Link from "next/link";
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const TeamAreaGroup = () => {
   return (
@@ -15,17 +15,17 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/1.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
@@ -33,7 +33,7 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <Link to='/team-details'>Devon Lane</Link>
+                    <Link href='/team-details'>Devon Lane</Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>
@@ -45,17 +45,17 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/2.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
@@ -63,7 +63,7 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Darrell Steward</Link>
+                    <Link href='/team-details'>Darrell Steward</Link>
                   </h5>
                   <p>It Department</p>
                 </div>
@@ -75,17 +75,17 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/3.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
@@ -93,7 +93,7 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Bessie Cooper</Link>
+                    <Link href='/team-details'>Bessie Cooper</Link>
                   </h5>
                   <p>Software Department</p>
                 </div>
@@ -105,17 +105,17 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/1.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
@@ -123,7 +123,7 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Devon Lane</Link>
+                    <Link href='/team-details'>Devon Lane</Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>
@@ -135,17 +135,17 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/2.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
@@ -153,7 +153,7 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Darrell Steward</Link>
+                    <Link href='/team-details'>Darrell Steward</Link>
                   </h5>
                   <p>It Department</p>
                 </div>
@@ -165,17 +165,17 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/3.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaTwitter />
                       </Link>
                     </li>
                     <li>
-                      <Link to="#">
+                      <Link href="#">
                         <FaInstagram />
                       </Link>
                     </li>
@@ -183,7 +183,7 @@ const TeamAreaGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Bessie Cooper</Link>
+                    <Link href='/team-details'>Bessie Cooper</Link>
                   </h5>
                   <p>Software Department</p>
                 </div>

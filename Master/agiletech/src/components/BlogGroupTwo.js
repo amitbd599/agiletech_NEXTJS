@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaAngleLeft,
@@ -6,7 +7,6 @@ import {
   FaRegUser,
   FaRegComments,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const BlogGroupTwo = () => {
   return (
@@ -26,7 +26,7 @@ const BlogGroupTwo = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
@@ -60,7 +60,7 @@ const BlogGroupTwo = () => {
                     June 19, 2023
                   </p>
                   <h5>
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
@@ -94,7 +94,7 @@ const BlogGroupTwo = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
@@ -128,7 +128,7 @@ const BlogGroupTwo = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
@@ -162,7 +162,7 @@ const BlogGroupTwo = () => {
                     June 19, 2023
                   </p>
                   <h5>
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
@@ -196,7 +196,7 @@ const BlogGroupTwo = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <Link to="/blog-details">
+                    <Link href="/blog-details">
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
@@ -221,20 +221,20 @@ const BlogGroupTwo = () => {
             </div>
           </div>
           <div className="pagination">
-            <Link className="prev page-numbers" to="#">
+            <Link className="prev page-numbers" href="#">
               <FaAngleLeft />
             </Link>
-            <Link className="page-numbers" to="#">
+            <Link className="page-numbers" href="#">
               1
             </Link>
             <span className="page-numbers current">2</span>
-            <Link className="page-numbers" to="#">
+            <Link className="page-numbers" href="#">
               3
             </Link>
-            <Link className="page-numbers" to="#">
+            <Link className="page-numbers" href="#">
               4
             </Link>
-            <Link className="next page-numbers" to="#">
+            <Link className="next page-numbers" href="#">
               <FaAngleRight />
             </Link>
           </div>

@@ -49,7 +49,7 @@ const PriceAreaTwo = () => {
                 </ul>
                 <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  to="#"
+                  href="#"
                 >
                   Started
                 </Link>
@@ -89,7 +89,7 @@ const PriceAreaTwo = () => {
                 </ul>
                 <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  to="#"
+                  href="#"
                 >
                   Started
                 </Link>
@@ -129,7 +129,7 @@ const PriceAreaTwo = () => {
                 </ul>
                 <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  to="#"
+                  href="#"
                 >
                   Started
                 </Link>

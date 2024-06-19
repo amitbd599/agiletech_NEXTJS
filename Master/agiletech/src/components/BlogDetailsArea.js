@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   FaCalendarAlt,
@@ -11,7 +12,6 @@ import {
   FaChevronRight,
   FaChevronLeft,
 } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 const BlogDetailsArea = () => {
   return (
@@ -116,18 +116,18 @@ const BlogDetailsArea = () => {
                     <div className="tag-and-share">
                       <div className="tags d-inline-block">
                         <strong>Tag : </strong>
-                        <Link to="#">Agency</Link> <Link to="#">Marketing</Link>
+                        <Link href="#">Agency</Link> <Link href="#">Marketing</Link>
                       </div>
                     </div>
                     <div className="prev-next-post">
                       <div className="row">
                         <div className="col-6 border-right-1">
-                          <Link className="btn btn-base border-radius-5" to="#">
+                          <Link className="btn btn-base border-radius-5" href="#">
                             <FaChevronLeft />
                           </Link>
                         </div>
                         <div className="col-6 text-end">
-                          <Link className="btn btn-base border-radius-5" to="#">
+                          <Link className="btn btn-base border-radius-5" href="#">
                             <FaChevronRight />
                           </Link>
                         </div>
@@ -167,7 +167,7 @@ const BlogDetailsArea = () => {
                               src="assets/img/about/7.png"
                             />{' '}
                             <Link
-                              to="#"
+                              href="#"
                               rel="external nofollow ugc"
                               className="url"
                             >
@@ -176,9 +176,9 @@ const BlogDetailsArea = () => {
                             <span className="says">says:</span>
                           </div>
                           <div className="comment-metadata">
-                            <Link to="#">March 14, 2013 at 7:57 am</Link>
+                            <Link href="#">March 14, 2013 at 7:57 am</Link>
                             <span className="edit-link">
-                              <Link className="comment-edit-link" to="#">
+                              <Link className="comment-edit-link" href="#">
                                 Edit
                               </Link>
                             </span>
@@ -191,7 +191,7 @@ const BlogDetailsArea = () => {
                           <Link
                             rel="nofollow"
                             className="comment-reply-link"
-                            to="#"
+                            href="#"
                           >
                             Reply
                           </Link>
@@ -208,7 +208,7 @@ const BlogDetailsArea = () => {
                               src="assets/img/about/7.png"
                             />
                             <Link
-                              to="#"
+                              href="#"
                               rel="external nofollow ugc"
                               className="url"
                             >
@@ -217,9 +217,9 @@ const BlogDetailsArea = () => {
                             <span className="says">says:</span>
                           </div>
                           <div className="comment-metadata">
-                            <Link to="#">March 14, 2013 at 7:57 am</Link>
+                            <Link href="#">March 14, 2013 at 7:57 am</Link>
                             <span className="edit-link">
-                              <Link className="comment-edit-link" to="#">
+                              <Link className="comment-edit-link" href="#">
                                 Edit
                               </Link>
                             </span>
@@ -232,7 +232,7 @@ const BlogDetailsArea = () => {
                           <Link
                             rel="nofollow"
                             className="comment-reply-link"
-                            to="#"
+                            href="#"
                           >
                             Reply
                           </Link>
@@ -281,17 +281,17 @@ const BlogDetailsArea = () => {
                     <h6>(480) 555-0103</h6>
                     <ul className="social-media">
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaTwitter />
                         </Link>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link href="#">
                           <FaInstagram />
                         </Link>
                       </li>
@@ -318,7 +318,7 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className="media-body align-self-center">
                           <h6 className="title">
-                            <Link to="/blog-details">
+                            <Link href="/blog-details">
                               Empowering future with solar.
                             </Link>
                           </h6>
@@ -336,7 +336,7 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className="media-body align-self-center">
                           <h6 className="title">
-                            <Link to="/blog-details">
+                            <Link href="/blog-details">
                               Marketing For Base market watch
                             </Link>
                           </h6>
@@ -354,7 +354,7 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className="media-body align-self-center">
                           <h6 className="title">
-                            <Link to="/blog-details">
+                            <Link href="/blog-details">
                               Condtum Integer urna at faucibus
                             </Link>
                           </h6>
@@ -371,27 +371,27 @@ const BlogDetailsArea = () => {
                   <h4 className="widget-title">Catagory</h4>
                   <ul className="catagory-items">
                     <li>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         Business <span>3</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         Finance <span>7</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         Web Design <span>2</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         Counsiling <span>3</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="/blog">
+                      <Link href="/blog">
                         IT Service <span>5</span>
                       </Link>
                     </li>
@@ -400,14 +400,14 @@ const BlogDetailsArea = () => {
                 <div className="widget widget_tag_cloud mb-0">
                   <h4 className="widget-title">Tags</h4>
                   <div className="tagcloud">
-                    <Link to="#">Information</Link>
-                    <Link to="#">Learn</Link>
-                    <Link to="#">ICT</Link>
-                    <Link to="#">Business</Link>
-                    <Link to="#">Portfolio</Link>
-                    <Link to="#">Project</Link>
-                    <Link to="#">Personal</Link>
-                    <Link to="#">Server</Link>
+                    <Link href="#">Information</Link>
+                    <Link href="#">Learn</Link>
+                    <Link href="#">ICT</Link>
+                    <Link href="#">Business</Link>
+                    <Link href="#">Portfolio</Link>
+                    <Link href="#">Project</Link>
+                    <Link href="#">Personal</Link>
+                    <Link href="#">Server</Link>
                   </div>
                 </div>
               </div>

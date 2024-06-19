@@ -32,11 +32,11 @@ export default function NotFound() {
                   </p>
                 </div>
                 <div
-                  className="d-adjust"
+                  className="d-adjust mt-2"
                   data-aos="fade-up"
                   data-aos-delay="500"
                 >
-                  <Link className="default-btn" href="/">
+                  <Link className="btn btn-border-base " href="/">
                     Back to Home
                   </Link>
                 </div>

@@ -189,13 +189,13 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.2s"
                                 >
-                                    <Link target="_blank" href="index-1">
+                                    <Link href="index-1">
                                         <span className="thumb">
                                             <img src="/assets/img/demo-landing/img/1.jpg" alt="img" />
                                         </span>
-                                        IT / Softwer Agency
+                                        IT / Software Agency
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-1">
+                                    <Link className="btn btn-base" href="index-1">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -206,13 +206,13 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-2">
+                                    <Link href="index-2">
                                         <span className="thumb">
                                             <img src="/assets/img/demo-landing/img/2.jpg" alt="img" />
                                         </span>
                                         SaaS App Landing
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-2">
+                                    <Link className="btn btn-base" href="index-2">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -223,13 +223,13 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-3">
+                                    <Link href="index-3">
                                         <span className="thumb">
                                             <img src="/assets/img/demo-landing/img/3.jpg" alt="img" />
                                         </span>
                                         Payments Solution
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-3">
+                                    <Link className="btn btn-base" href="index-3">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -240,13 +240,13 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-4">
+                                    <Link href="index-4">
                                         <span className="thumb">
                                             <img src="/assets/img/demo-landing/img/4.jpg" alt="img" />
                                         </span>
                                         Startup / Software Company
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-4">
+                                    <Link className="btn btn-base" href="index-4">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -257,13 +257,13 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-5">
+                                    <Link href="index-5">
                                         <span className="thumb">
                                             <img src="/assets/img/demo-landing/img/5.jpg" alt="img" />
                                         </span>
                                         AI Solution
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-5">
+                                    <Link className="btn btn-base" href="index-5">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -274,13 +274,13 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-6">
+                                    <Link href="index-6">
                                         <span className="thumb">
                                             <img src="/assets/img/demo-landing/img/6.jpg" alt="img" />
                                         </span>
                                         NFT Service
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-6">
+                                    <Link className="btn btn-base" href="index-6">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -291,13 +291,13 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-7">
+                                    <Link href="index-7">
                                         <span className="thumb">
                                             <img src="/assets/img/demo-landing/img/7.jpg" alt="img" />
                                         </span>
                                         Cyber Security
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-7">
+                                    <Link className="btn btn-base" href="index-7">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -308,13 +308,13 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-8">
+                                    <Link href="index-8">
                                         <span className="thumb">
                                             <img src="/assets/img/demo-landing/img/8.jpg" alt="img" />
                                         </span>
                                         Hardware Service
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-8">
+                                    <Link className="btn btn-base" href="index-8">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -325,13 +325,13 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-9">
+                                    <Link href="index-9">
                                         <span className="thumb">
                                             <img src="/assets/img/demo-landing/img/9.jpg" alt="img" />
                                         </span>
                                         ICO Landing
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-9">
+                                    <Link className="btn btn-base" href="index-9">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -342,7 +342,7 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-10">
+                                    <Link href="index-10">
                                         <span className="thumb">
                                             <img
                                                 src="/assets/img/demo-landing/img/12.jpg"
@@ -351,7 +351,7 @@ const Demo = () => {
                                         </span>
                                         Personal Portfolio
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-10">
+                                    <Link className="btn btn-base" href="index-10">
                                         Live Demo
                                     </Link>
                                 </div>
@@ -362,7 +362,7 @@ const Demo = () => {
                                     data-wow-duration="1.5s"
                                     data-wow-delay="0.3s"
                                 >
-                                    <Link target="_blank" href="index-11">
+                                    <Link href="index-11">
                                         <span className="thumb">
                                             <img
                                                 src="/assets/img/demo-landing/img/11.jpg"
@@ -371,7 +371,7 @@ const Demo = () => {
                                         </span>
                                         Seo Service
                                     </Link>
-                                    <Link target="_blank" className="btn btn-base" href="index-11">
+                                    <Link className="btn btn-base" href="index-11">
                                         Live Demo
                                     </Link>
                                 </div>

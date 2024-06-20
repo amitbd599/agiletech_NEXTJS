@@ -10,7 +10,7 @@ const ContactMain = () => {
     // Please See Documentation for more information
     emailjs
       .sendForm(
-        'service_yipk4xg', //YOUR_SERVICE_ID
+        'service_ljx76ce', //YOUR_SERVICE_ID
         'template_71bgc2q', //YOUR_TEMPLATE_ID
         form.current,
         'cwf8kROl5o3__96Ti', //YOUR_PUBLIC_KEY
